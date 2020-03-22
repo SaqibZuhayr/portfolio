@@ -1,0 +1,57 @@
+h4 {
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 600;
+    color: #304FFE;
+}
+h1 {
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 600;
+    font-size: 50px;
+}
+h5 {
+    font-family: 'Bellota', cursive;
+}
+img {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+.resume {
+    border-radius: 0px;
+    height: 65px;
+    width: 65px;
+}
+.intro-container {
+    height: 25rem;
+    background-color: #304FFE;
+    margin-top: 6rem;
+
+    h3 {
+        font-family: 'Bellota', cursive;
+        font-weight: 600;
+        color: white;
+    }
+    p {
+        width: 40rem;
+        font-family: 'Assistant', sans-serif;
+        color: white;
+        font-size: 22px;
+    }
+    img {
+        border-radius: 0px;
+        height: 75px;
+        width: 75px;
+    }
+}
+.contact-me {
+    h3 {
+        font-family: 'Bellota', cursive;
+        font-weight: 600;
+        color: #304FFE;
+    }
+    img {
+        border-radius: 0px;
+        height: 50px;
+        width: 50px;
+    }
+}
