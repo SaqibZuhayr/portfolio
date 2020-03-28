@@ -1,20 +1,28 @@
-h4 {
-    font-family: 'Baloo Da 2', cursive;
-    font-weight: 600;
-    color: #304FFE;
+.navbar-container {
+    h4 {
+        font-family: 'Baloo Da 2', cursive;
+        font-weight: 600;
+        color: #3366CC;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
-h1 {
-    font-family: 'Baloo Da 2', cursive;
-    font-weight: 600;
-    font-size: 50px;
-}
-h5 {
-    font-family: 'Bellota', cursive;
-}
-img {
-    border-radius: 50%;
-    height: 15rem;
-    width: 15rem;
+.avatar-container {
+    h1 {
+        font-family: 'Baloo Da 2', cursive;
+        font-weight: 600;
+        font-size: 50px;
+    }
+    h5 {
+        font-family: 'Bellota', cursive;
+    }
+    img {
+        border-radius: 50%;
+        height: 15rem;
+        width: 15rem;
+    }
 }
 .resume {
     border-radius: 0px;
@@ -22,8 +30,8 @@ img {
     width: 65px;
 }
 .intro-container {
-    height: 25rem;
-    background-color: #304FFE;
+    height: 30rem;
+    background-color: #3366CC;
     margin-top: 6rem;
 
     h3 {
@@ -42,16 +50,45 @@ img {
         height: 75px;
         width: 75px;
     }
+    
+}
+.project-container {
+    margin-top: 3rem;
+    .card {
+        font-family: 'Assistant', sans-serif;
+        font-weight: 600;
+        border: none;
+        &:hover {
+            box-shadow:
+                        0 5.8px 5.2px rgba(0, 0, 0, 0.034),
+                        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                        0 12.5px 10px rgba(0, 0, 0, 0.06),
+                        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                        0 100px 80px rgba(0, 0, 0, 0.12)
+        }
+    }
+    .tools {
+        p {
+            padding: .1rem .5rem;
+            margin-right: .5rem;
+            border: 1px solid #3366CC;
+            border-radius: 5px;
+        }
+    }
 }
 .contact-me {
     h3 {
         font-family: 'Bellota', cursive;
         font-weight: 600;
-        color: #304FFE;
+        color: #3366CC;
     }
     img {
         border-radius: 0px;
         height: 50px;
         width: 50px;
+    }
+    h5 {
+        font-family: 'Bellota', cursive;
     }
 }
